@@ -1,0 +1,14 @@
+
+Exercise 4:
+What is the exact output of the following piece of code?
+
+System.out.print("Java is ");
+System.out.println("a");
+System.out.print(" programming language");
+
+
+//--------نتيجة الطباعة -------------
+
+
+Java is a
+ programming language

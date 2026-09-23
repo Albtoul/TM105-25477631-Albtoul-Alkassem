@@ -1,0 +1,31 @@
+Exercise 5:
+The following code includes 10 compilation errors (an error per line).
+a) Find and correct them.
+b) Give the exact output after correcting the code.
+/ Try to find the errors
+Public class Test1 {
+ public static main(String[] a) {
+ System.out.println('Welcome');
+ System.out.printIn("to");
+ System.out.println("M105);
+ System.out.print("Nice ")
+ System.out.println(Program);
+ {
+]
+
+
+
+//--------------Result-----------------
+
+
+
+1. for the Comment  we should use double  // not single slash
+2. capital P on public jave not allowed 
+3. no void return on code 
+4. single quotation insted on double 
+5. Captal I on print we should use lower case 
+6. closer " being missed 
+7. semicolon missing 
+8. no double quotation and varible not declare 
+9. wrong closer by ] insted of curly brace }
+10. Main use tow open curly brace { { insted of open and closer {} 

@@ -21,6 +21,26 @@ Q3. Write Java programs to do the following:
 1. Write a Java program that prompts the user to enter his/hername and age; then displays on the screen the followingmessage using printf() method:
 Your name is name and your age is age.
 
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import java.util.Scanner;
+void main() {
+    String  Name ;
+    String  Age ;
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter your name");
+     Name =input.nextLine().toUpperCase();
+    System.out.println("Enter your Age ");
+    Age  =input.nextLine().toUpperCase();
+
+    int age = Integer.parseInt(Age);
+
+    System.out.printf("Your Name is %s, Your Age is %d", Name, age);
+
+}
+
 //--------------below  I'll share  branch code for slotion -----------------------
 2. Write a Java class called TriangleArea that reads from theuser the base of a triangle and its height as real numbers.
 Then calculates and prints the area of the triangle (roundedto 3 decimal places).
